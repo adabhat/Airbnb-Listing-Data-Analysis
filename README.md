@@ -57,12 +57,6 @@ This project explores and analyzes Airbnb listing data to uncover key trends, pa
 - **Matplotlib & Seaborn** – Data visualization  
 - **Google Colab (Jupyter Notebook)** – Exploratory analysis environment  
 
----
-
-## 📁 Project Files
-- `EDA-AirBnB.ipynb` – Exploratory Data Analysis notebook  
-- `final_airbnb_data.csv` – Cleaned dataset used for analysis  
-- `datasets.csv` – Raw dataset before preprocessing  
 
 ---
 
