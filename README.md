@@ -1,69 +1,102 @@
-# Airbnb-Listing-Data-Analysis
+# NYC Airbnb Marketplace Analysis + Dashboard
 
 ## 📊 Project Overview
-This project explores and analyzes Airbnb listing data to uncover key trends, patterns, and insights that can guide business strategy. The analysis focuses on pricing, host behavior, geographic distribution, and listing performance to identify actionable recommendations for improving host revenue, guest experience, and platform efficiency.
+
+This project analyzes 20,000+ Airbnb listings across New York City to uncover patterns in pricing, host behavior, inventory distribution, and listing performance.
+
+Using Python for exploratory data analysis and Power BI for interactive reporting, the project identifies key marketplace trends and translates them into business insights and recommendations.
 
 ---
 
-## ⚙️ Objectives
-- Perform Exploratory Data Analysis (EDA) on Airbnb listing data.  
-- Identify patterns in pricing, availability, ratings, and location.  
-- Derive business insights to support data-driven decision-making.  
-- Recommend strategic actions for platform and host optimization.
+## 🎯 Objectives
+
+- Perform exploratory data analysis on Airbnb listing data
+- Identify pricing and inventory patterns across NYC
+- Understand host and neighborhood-level dynamics
+- Develop an interactive Power BI dashboard
+- Generate actionable business recommendations
+
+---
+
+## 🛠️ Tools & Technologies
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Power BI
+- Jupyter Notebook
 
 ---
 
 ## 🧠 Key Insights
 
-1. **Price Distribution Skewed Toward Higher-End Listings**  
-   The dataset reveals a median price of **$125** and a mean of **$167**, indicating a right-skewed distribution with a small segment of luxury listings driving up the average price.  
+### Price Distribution Skewed Toward Higher-End Listings
 
-2. **Predominance of Entire Home Listings**  
-   Over **55%** of all listings are categorized as *Entire homes/apartments*, showing a strong supply focus on full-property rentals rather than shared or private room options.  
+The dataset reveals a median price of \$125 and a mean of \$167, indicating a right-skewed distribution with a small segment of luxury listings driving up the average price.
 
-3. **Concentration of Listings in Specific Neighborhoods**  
-   **Bedford-Stuyvesant** hosts the highest number of listings, while **Tribeca** and **DUMBO** command the highest median prices, highlighting a spatial imbalance between quantity and pricing tiers.  
+### Predominance of Entire Home Listings
 
-4. **Highly Fragmented Host Base**  
-   With approximately **12,400 unique hosts** for **20,600 listings**, most hosts manage only one or two properties, indicating a fragmented market with predominantly small-scale operators.  
+Over 55% of all listings are categorized as Entire homes/apartments, showing a strong supply focus on full-property rentals rather than shared or private room options.
 
-5. **High Guest Ratings but Moderate Utilization**  
-   The average rating stands at **4.8**, suggesting strong guest satisfaction. However, listings remain available for an average of **205 days per year**, indicating underutilized inventory and unrealized revenue potential.  
+### Concentration of Listings in Specific Neighborhoods
+
+Bedford-Stuyvesant hosts the highest number of listings, while Tribeca and DUMBO command the highest median prices, highlighting a spatial imbalance between quantity and pricing tiers.
+
+### Highly Fragmented Host Base
+
+With approximately 12,400 unique hosts for 20,600 listings, most hosts manage only one or two properties, indicating a fragmented market with predominantly small-scale operators.
+
+### High Guest Ratings but Moderate Utilization
+
+The average rating stands at 4.8, suggesting strong guest satisfaction. However, listings remain available for an average of 205 days per year, indicating underutilized inventory and unrealized revenue potential.
 
 ---
 
 ## 💼 Business Recommendations
 
-1. **Implement Dynamic Pricing Strategies**  
-   Develop and integrate automated pricing tools that adjust rates based on demand patterns, location, and seasonality. This will optimize occupancy rates and maximize host revenue.  
-
-2. **Diversify Room-Type Offerings**  
-   Encourage and promote *private* and *shared room* listings through targeted discounts or visibility boosts to attract budget-conscious and solo travelers, improving platform inclusivity.  
-
-3. **Leverage Neighborhood-Level Marketing Campaigns**  
-   Position *Bedford-Stuyvesant* as an affordable and accessible area for travelers, while branding *Tribeca* and *DUMBO* as premium destinations. Tailor marketing efforts to each neighborhood’s value proposition to balance supply and demand.  
-
-4. **Launch a Host Support and Engagement Program**  
-   Introduce a structured host development initiative offering pricing guidance, data insights, and recognition programs (e.g., “Top Performer” badges) to empower small hosts and enhance platform loyalty.  
-
-5. **Develop an Occupancy Optimization Dashboard**  
-   Create a performance dashboard that identifies high-rated but low-booked listings, providing actionable recommendations such as pricing adjustments or minimum-night reductions to improve utilization.  
+- Implement dynamic pricing strategies based on demand, location, and property characteristics.
+- Expand inventory in high-performing neighborhoods while monitoring market saturation.
+- Improve visibility of highly rated listings to increase booking conversion.
+- Support small-scale hosts through pricing guidance and performance analytics.
+- Optimize underutilized inventory through targeted pricing and marketing interventions.
 
 ---
 
-## 🧰 Tools & Technologies
-- **Python** – Data cleaning, analysis, and visualization  
-- **Pandas & NumPy** – Data manipulation  
-- **Matplotlib & Seaborn** – Data visualization  
-- **Google Colab (Jupyter Notebook)** – Exploratory analysis environment  
+📂 Project Workflow
 
+1. Data Cleaning & Preparation
+The dataset was cleaned and transformed to ensure accurate analysis.
 
----
+Key preprocessing steps included:
 
-## 🧩 Results Summary
-This analysis provides valuable insights into Airbnb’s pricing structures, host distribution, and listing efficiency. The findings enable both hosts and the platform to improve pricing accuracy, occupancy rates, and regional marketing strategies for better revenue and customer satisfaction.
+Handling missing values
+Removing duplicate records
+Data type standardization
+Feature engineering
+Creation of pricing-efficiency metrics (Price per Bed)
 
----
+2. Exploratory Data Analysis (EDA)
+The exploratory analysis focused on understanding:
+
+Listing prices
+Room-type distribution
+Host concentration
+Geographic patterns
+Availability trends
+Ratings and reviews
+Property characteristics
+
+The analysis combined univariate, bivariate, and geographic exploration to identify meaningful business patterns.
+
+3. Power BI Marketplace Intelligence Dashboard
+To communicate findings effectively, an interactive 2-page Power BI dashboard was developed.
+
+The dashboard transforms the exploratory analysis into a business-focused reporting solution designed to answer marketplace and pricing-related questions.
+
+--
 
 ## 🏁 Conclusion
-The Airbnb Listing Data Analysis highlights how data-driven decision-making can directly enhance platform efficiency, user engagement, and profitability. Implementing these recommendations can strengthen Airbnb’s market positioning and improve both host and guest satisfaction.
+
+This project combines exploratory data analysis and business intelligence reporting to understand marketplace behavior, pricing dynamics, and growth opportunities within Airbnb's NYC ecosystem. The findings demonstrate how data-driven decision-making can support revenue optimization, inventory planning, and strategic marketplace expansion.
